@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlDunin version="1.00">
+  <obj clas="Contrat">
+    <prop nom="$codeClient2" type="string"><![CDATA[ALaplante]]></prop>
+    <prop nom="$dateReqExped" type="string"><![CDATA[2025-03-10]]><carac nom="usag" type="boolean"><![CDATA[true]]></carac></prop>
+    <prop nom="$dateValidite" type="string"><![CDATA[2025/03/10]]></prop>
+    <prop nom="$delaiPrevExped" type="string"><![CDATA[2]]></prop>
+    <prop nom="$disclaimers" type="array">
+      <entr no="0" type="obj">
+        <obj clas="Disclaimer">
+          <prop nom="$condition"/>
+          <prop nom="$terme" type="string"><![CDATA[PriseMesure_100]]></prop>
+        </obj>
+      </entr>
+      <entr no="1" type="obj">
+        <obj clas="Disclaimer">
+          <prop nom="$condition"/>
+          <prop nom="$terme" type="string"><![CDATA[Electro_90]]></prop>
+        </obj>
+      </entr>
+    </prop>
+    <prop nom="$emplacementCre" type="string"><![CDATA[Interne]]></prop>
+    <prop nom="$etapes" type="array">
+      <entr no="0" type="obj">
+        <obj clas="Etape">
+          <prop nom="$createur" type="string"><![CDATA[alaplante]]></prop>
+          <prop nom="$dateCreation" type="string"><![CDATA[2025/01/09]]></prop>
+          <prop nom="$emplacement" type="string"><![CDATA[Manufacturier]]></prop>
+          <prop nom="$statut" type="string"><![CDATA[Saisie]]></prop>
+          <prop nom="$tempsCreation" type="string"><![CDATA[2025/01/09 16:23]]></prop>
+        </obj>
+      </entr>
+    </prop>
+    <prop nom="$identCour" type="string"><![CDATA[0]]></prop>
+    <prop nom="$nbJourValide" type="string"><![CDATA[60]]></prop>
+    <prop nom="$nomClient" type="string"><![CDATA[ALaplante]]></prop>
+    <prop nom="$projet" type="string"><![CDATA[P-001666]]></prop>
+    <prop nom="$promotions" type="array"/>
+    <prop nom="$qteItems" type="number"><![CDATA[51]]></prop>
+    <prop nom="$qteItemsCab" type="number"><![CDATA[30]]></prop>
+    <prop nom="$roleProprietaire" type="string"><![CDATA[Employe]]></prop>
+    <prop nom="$sommairesKits" type="array">
+      <entr no="0" type="obj">
+        <obj clas="SommaireKit">
+          <prop nom="$code" type="string"><![CDATA[k01]]></prop>
+          <prop nom="$no" type="number"><![CDATA[1]]></prop>
+          <prop nom="ligne" type="string"><![CDATA[Custom]]></prop>
+          <prop nom="$pourcEsc" type="string"><![CDATA[0]]></prop>
+          <prop nom="$pourcEscSup" type="string"><![CDATA[0]]></prop>
+          <prop nom="$sousTotal" type="number"><![CDATA[8885.54]]></prop>
+        </obj>
+      </entr>
+      <entr no="1" type="obj">
+        <obj clas="SommaireKit">
+          <prop nom="$code" type="string"><![CDATA[k02]]></prop>
+          <prop nom="$no" type="number"><![CDATA[2]]></prop>
+          <prop nom="ligne" type="string"><![CDATA[Custom]]></prop>
+          <prop nom="$pourcEsc" type="string"><![CDATA[0]]></prop>
+          <prop nom="$pourcEscSup" type="string"><![CDATA[0]]></prop>
+          <prop nom="$sousTotal" type="number"><![CDATA[4085.66]]></prop>
+        </obj>
+      </entr>
+    </prop>
+    <prop nom="$sorte" type="string"><![CDATA[Contrat]]></prop>
+    <prop nom="$type" type="string"><![CDATA[Regulier]]></prop>
+    <prop nom="$typeClient" type="string"><![CDATA[particulier]]></prop>
+    <prop nom="$typeProcess" type="string"><![CDATA[interne]]></prop>
+    <prop nom="$validCred" type="boolean"><![CDATA[true]]></prop>
+    <prop nom="ligne" type="string"><![CDATA[Custom]]></prop>
+    <prop nom="$cleEnMain" type="boolean"><![CDATA[true]]></prop>
+    <prop nom="$dateDebValidite" type="string"><![CDATA[2025-01-10]]><carac nom="usag" type="boolean"><![CDATA[true]]></carac></prop>
+    <prop nom="$installateur" type="string"><![CDATA[particuliers]]></prop>
+    <prop nom="$installation" type="boolean"><![CDATA[true]]></prop>
+    <prop nom="$lumieres" type="array">
+      <entr no="0" type="obj">
+        <obj clas="Lumiere">
+          <prop nom="$modele" type="string"><![CDATA[PUCK120mm_NI]]></prop>
+          <prop nom="$qte" type="number"><![CDATA[2]]></prop>
+        </obj>
+      </entr>
+      <entr no="1" type="obj">
+        <obj clas="Lumiere">
+          <prop nom="$modele" type="string"><![CDATA[PUCK79mm_NI]]></prop>
+          <prop nom="$qte" type="number"><![CDATA[5]]></prop>
+        </obj>
+      </entr>
+    </prop>
+    <prop nom="$priseMesure" type="boolean"><![CDATA[true]]></prop>
+    <prop nom="assemblage" type="string"><![CDATA[Assemble]]></prop>
+    <prop nom="edgeColle" type="string"><![CDATA[pur]]></prop>
+    <prop nom="gamme" type="string"><![CDATA[gamme_2]]></prop>
+    <prop nom="$cleItem" type="number"><![CDATA[979]]></prop>
+    <prop nom="$createurCourriel" type="string"><![CDATA[alaplante@avivia.ca]]></prop>
+    <prop nom="$createurNom" type="string"><![CDATA[Audrey Laplante]]></prop>
+    <prop nom="$dateCreation" type="string"><![CDATA[2025/01/09]]></prop>
+    <prop nom="$division" type="string"><![CDATA[Division_1]]></prop>
+    <prop nom="$documCree" type="number"><![CDATA[1]]></prop>
+    <prop nom="$ref1" type="string"><![CDATA[Cuisine V1]]><carac nom="usag" type="boolean"><![CDATA[true]]></carac></prop>
+    <prop nom="$sauvegarde" type="boolean"><![CDATA[true]]></prop>
+    <prop nom="gammedesc" type="string"><![CDATA[gamme_desc_2]]><carac nom="usag" type="boolean"><![CDATA[true]]></carac></prop>
+    <prop nom="$code" type="string"><![CDATA[P-001666-S1]]></prop>
+    <prop nom="$codeTaxe" type="string"><![CDATA[TPS]]></prop>
+    <prop nom="$codeTaxe2" type="string"><![CDATA[TVQ]]></prop>
+    <prop nom="$pourcEsc" type="string"><![CDATA[0]]></prop>
+    <prop nom="$pourcEscSup" type="string"><![CDATA[0]]></prop>
+    <prop nom="$sousTotal" type="number"><![CDATA[12971.2]]></prop>
+    <prop nom="$sousTotal2" type="number"><![CDATA[19868.85]]></prop>
+    <prop nom="$tauxTaxe" type="number"><![CDATA[5]]></prop>
+    <prop nom="$tauxTaxe2" type="number"><![CDATA[9.975]]></prop>
+    <prop nom="$total" type="number"><![CDATA[22844.21]]></prop>
+    <prop nom="$totalHT" type="number"><![CDATA[19868.85]]></prop>
+    <prop nom="$totalTx1" type="number"><![CDATA[993.44]]></prop>
+    <prop nom="$totalTx2" type="number"><![CDATA[1981.92]]></prop>
+    <prop nom="$avecLivraison" type="number"><![CDATA[1]]></prop>
+    <prop nom="$cumulInstall" type="number"><![CDATA[2461.97]]></prop>
+    <prop nom="$cumulVolume" type="number"><![CDATA[290.84]]></prop>
+    <prop nom="$ecartPrix"/>
+    <prop nom="$fraisPDM" type="string"><![CDATA[PSD]]></prop>
+    <prop nom="$fraisPSD" type="string"><![CDATA[PSD_PDM_INS_LIV]]></prop>
+    <prop nom="$montantEcartPrix"/>
+    <prop nom="$pourcEscAutre" type="string"><![CDATA[0]]></prop>
+    <prop nom="$pourcEscCab" type="string"><![CDATA[0]]></prop>
+    <prop nom="$pourcEscComptoir" type="string"><![CDATA[0]]></prop>
+    <prop nom="$pourcEscMoulure" type="string"><![CDATA[0]]></prop>
+    <prop nom="$pourcEscPanel" type="string"><![CDATA[0]]></prop>
+    <prop nom="$sousTotal2_ClientFinal" type="number"><![CDATA[19868.85]]></prop>
+    <prop nom="$sousTotalAutre" type="number"><![CDATA[79.25]]></prop>
+    <prop nom="$sousTotalAutre_Dealer" type="number"><![CDATA[79.25]]></prop>
+    <prop nom="$sousTotalCab" type="number"><![CDATA[12165.4]]></prop>
+    <prop nom="$sousTotalComptoir" type="number"><![CDATA[6818.4]]></prop>
+    <prop nom="$sousTotalComptoir_Dealer" type="number"><![CDATA[6818.4]]></prop>
+    <prop nom="$sousTotalMoulure" type="number"><![CDATA[161.45]]></prop>
+    <prop nom="$sousTotalPanel" type="number"><![CDATA[644.35]]></prop>
+    <prop nom="$sousTotalService" type="string"><![CDATA[PSD]]></prop>
+    <prop nom="$sousTotalServiceEsc" type="string"><![CDATA[PSD]]></prop>
+    <prop nom="$sousTotal_Dealer" type="number"><![CDATA[12971.2]]></prop>
+    <prop nom="$totalComptoirQuartz" type="number"><![CDATA[6818.4]]></prop>
+    <prop nom="$totalEscService"/>
+    <prop nom="$totalHT_CF" type="number"><![CDATA[19868.85]]></prop>
+    <prop nom="$totalInstall" type="string"><![CDATA[PSD]]>null<notif clas="NotifWarning" ident="avert_val" type="string"><![CDATA[valide_CodePostal]]></notif></prop>
+    <prop nom="$totalLivraison" type="string"><![CDATA[PSD]]></prop>
+    <prop nom="$totalTx1_CF" type="number"><![CDATA[993.44]]></prop>
+    <prop nom="$totalTx2_CF" type="number"><![CDATA[1981.92]]></prop>
+    <prop nom="$total_CF" type="number"><![CDATA[22844.21]]></prop>
+    <prop nom="$sousTotal2Eff" type="number"><![CDATA[19868.85]]></prop>
+    <prop nom="$sousTotalAutreEff" type="number"><![CDATA[79.25]]></prop>
+    <prop nom="$sousTotalAutre_DealerEff" type="number"><![CDATA[79.25]]></prop>
+    <prop nom="$sousTotalCabEff" type="number"><![CDATA[12165.4]]></prop>
+    <prop nom="$sousTotalComptoirEff" type="number"><![CDATA[6818.4]]></prop>
+    <prop nom="$sousTotalComptoir_DealerEff" type="number"><![CDATA[6818.4]]></prop>
+    <prop nom="$sousTotalEff" type="number"><![CDATA[12971.2]]></prop>
+    <prop nom="$sousTotalMoulureEff" type="number"><![CDATA[161.45]]></prop>
+    <prop nom="$sousTotalPanelEff" type="number"><![CDATA[644.35]]></prop>
+    <prop nom="$sousTotal_DealerEff" type="number"><![CDATA[12971.2]]></prop>
+    <prop nom="$totalComptoirQuartzEff" type="number"><![CDATA[6818.4]]></prop>
+  </obj>
+</xmlDunin>
